@@ -57,7 +57,7 @@ public class Militantes : MonoBehaviour
         if (distancia < radioDeteccion && distancia > radioPersecusion)
         {
 
-            estado = "girar";
+            estado = "mirar";
         }
         if (distancia < radioPersecusion)
         {
@@ -67,15 +67,15 @@ public class Militantes : MonoBehaviour
         switch (estado)
         {
             case "normal":
-                anim.SetBool("RunEnemy", false);
+                anim.SetBool("Perseguir", false);
                 print(estado);
                 break;
-            case "alert":
+            case "mirar":
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(jugador.transform.position - transform.position), velRotacion * Time.deltaTime);
 
                 print(estado);
                 break;
-            case "attack":
+            case "perseguir":
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(jugador.transform.position - transform.position), velRotacion * Time.deltaTime);
                 agente.destination = objectivo.position;
                 anim.SetBool("Perseguir", true);
