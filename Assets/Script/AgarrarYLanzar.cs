@@ -1,60 +1,73 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class AgarrarYLanzar : MonoBehaviour
 {
-    [SerializeField] private GameObject manoPunto;
+    [SerializeField]
+    private GameObject manoPoint;
+    private GameObject objetoAgarrado = null; // para saber si tenemos un objeto o no en la mano 
+    //[SerializeField]
+    //private float chronometer = 0;
+    private void Start()
+    {
 
-    private GameObject pickedObject = null; // para saber si tenemos un objeto o no en la mano 
+    }
 
     void Update()
     {
+
         Pala pala = GameObject.Find("Clean_shovel_Prefab").GetComponent<Pala>();
-        if (pickedObject != null)
+        if (objetoAgarrado != null)
         {
 
             if (Input.GetKey("r"))
             {
+                objetoAgarrado.GetComponent<Rigidbody>().AddForce(pala.transform.forward * pala.ThrowForce);
+
                 pala.Funcionando = true;
 
-                Destroy(pickedObject, 5);
+                //Destroy(objetoAgarrado, 5);
 
-                pickedObject.GetComponent<Rigidbody>().useGravity = true;
+                objetoAgarrado.gameObject.transform.SetParent(null);
 
-                pickedObject.GetComponent<Rigidbody>().isKinematic = false;
+                objetoAgarrado.GetComponent<Rigidbody>().isKinematic = false;
 
-                pickedObject.gameObject.transform.SetParent(null);
+                objetoAgarrado.GetComponent<Rigidbody>().AddForce(transform.forward * pala.ThrowForce, ForceMode.Impulse);
 
-                pickedObject = null;
-
-                
+                objetoAgarrado = null;
             }
         }
 
 
     }
-    private void OnTriggerStay(Collider otro)
+    private void OnTriggerStay(Collider other)
     {
         Pala pala = GameObject.Find("Clean_shovel_Prefab").GetComponent<Pala>();
+        if (other.gameObject.CompareTag("Pala"))  // comparamos el tag del objecto
         {
-            if (Input.GetKey("e") && pickedObject == null)  //al apretar la tecla "E" podemos agarrar el objeto mientras que no tengamos nada en la mano 
+            if (Input.GetKey("e") && objetoAgarrado == null)  //al apretar la tecla "E" podemos agarrar el objeto mientras que no tengamos nada en la mano 
             {
-                pala.GetComponent<Rigidbody>().useGravity = false;
 
-                pala.GetComponent<Rigidbody>().isKinematic = true;
+                other.gameObject.transform.SetParent(manoPoint.gameObject.transform);
 
-                pala.transform.position = manoPunto.transform.position;
+                other.transform.position = manoPoint.transform.position;
 
-                pala.gameObject.transform.SetParent(manoPunto.gameObject.transform);
+                other.transform.rotation = manoPoint.transform.rotation;
+                other.GetComponent<Rigidbody>().useGravity = true;
+
+                other.GetComponent<Rigidbody>().isKinematic = true;
+
+                pala.EstaRotando = false;
 
                 pala.Funcionando = false;
 
-                pickedObject = otro.gameObject;
+                objetoAgarrado = other.gameObject;
 
             }
         }
     }
-
 
 }

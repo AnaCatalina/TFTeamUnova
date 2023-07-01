@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class Pala : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField]
     private float velRotacion;
-
-    private float radio;
+    [SerializeField]
+    private bool estaRotando;
+    public bool EstaRotando { get => estaRotando; set => estaRotando = value; }
     [SerializeField]
     private bool funcionando;
     public bool Funcionando { get => funcionando; set => funcionando = value; }
-    public float Radio { get => radio; set => radio = value; }
+
+    [SerializeField]
+    private float throwForce = 10;
+    public float ThrowForce { get => throwForce; set => throwForce = value; }
     // Start is called before the first frame update
     void Start()
     {
-        radio = 10;
+        estaRotando = true;
         velRotacion = 100f;
         funcionando = true;
     }
@@ -24,6 +27,10 @@ public class Pala : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, Time.deltaTime * velRotacion, 0);
+        if (estaRotando)
+        {
+            transform.Rotate(0, Time.deltaTime * velRotacion, 0);
+        }
+
     }
 }
