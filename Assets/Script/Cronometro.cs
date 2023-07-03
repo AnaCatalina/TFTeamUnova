@@ -19,14 +19,14 @@ public class Cronometro : MonoBehaviour
         switch (nivel)
         {
             case 1:
-                cronometro = 120;
+                cronometro = 60;
                 break;
             case 2:
-                cronometro = 240;
+                cronometro = 120;
 
                 break;
             case 3:
-                cronometro = 420;
+                cronometro = 240;
                 break;
         }
     }
@@ -37,7 +37,7 @@ public class Cronometro : MonoBehaviour
         cronometro -= 1 * Time.deltaTime;
         textCrono = (int)cronometro;
         textComponent.text = "Tiempo: " + textCrono.ToString();
-        if (cronometro == 0)
+        if (cronometro <= 0)
         {
             SceneManager.LoadScene(5);
         }
