@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class Militantes : MonoBehaviour
 
@@ -23,6 +24,8 @@ public class Militantes : MonoBehaviour
     private float radioPala;
     [SerializeField]
     private float radioAtaque;
+    [SerializeField]
+    private int nivel;
     [SerializeField]
     private NavMeshAgent agente;
     private Animator anim;
@@ -100,7 +103,19 @@ public class Militantes : MonoBehaviour
                 break;
             case "attack":
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(jugador.transform.position - transform.position), velRotacion * Time.deltaTime);
-                agente.speed = 10f;
+                switch (nivel)
+                {
+                    case 1:
+                        agente.speed = 5f;
+                        break;
+                    case 2:
+                        agente.speed = 7f;
+                        break;
+                    case 3:
+                        agente.speed = 9f;
+                        break;
+                }
+                
                 agente.acceleration = 10f;
                 agente.destination = objetivo.position;
                 anim.SetBool("Perseguir", true);
