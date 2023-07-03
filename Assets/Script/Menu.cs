@@ -17,9 +17,9 @@ public class Menu : MonoBehaviour
     [Header("Panels")]
     public GameObject panelBotones;
     public GameObject opciones;
-  // public GameObject volver;
+   public GameObject controles;
   
-    // public GameObject level;
+    
 
 
    
@@ -35,8 +35,9 @@ public class Menu : MonoBehaviour
     public void AbrirPanel(GameObject panel) 
     { 
         panelBotones.SetActive(false);
-        opciones.SetActive(false); 
-     //   volver.SetActive(false);
+        opciones.SetActive(false);
+        controles.SetActive(false);
+
 
         panel.SetActive(true);
         SonidoBoton();
@@ -58,7 +59,7 @@ public class Menu : MonoBehaviour
         fxSource.PlayOneShot(sonidoClick);
 
     }
-    /*   public void Salir() { 
+       public void Salir() { 
            Application.Quit(); 
-       }*/
+       }
 }
