@@ -5,18 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pala
+  - Auto
   - Jugador
-<<<<<<< HEAD
   - Voto
   - MitadVoto1
-=======
-  - Auto
->>>>>>> 60c8f5dac20a3e5ab60e1474586648c47f595dbf
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - enTierra
+  - 
   - Water
   - UI
   - 
