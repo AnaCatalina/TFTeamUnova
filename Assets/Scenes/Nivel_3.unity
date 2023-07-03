@@ -573,10 +573,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &130700066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,10 +2360,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1001 &484626475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4592,10 +4594,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1001 &863076699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5582,7 +5585,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f6b574cad88c055409914e97c639cbb3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6157,10 +6160,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &1164342560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 122488, guid: 58806cc333998f944b74972409cb3751, type: 3}
@@ -6699,10 +6703,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &1251352415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 143710, guid: 75d3dbd88d28b6043a693eea1d0e0663, type: 3}
@@ -6939,10 +6944,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &1289571502
 GameObject:
   m_ObjectHideFlags: 0
@@ -7491,10 +7497,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1001 &1413921538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8747,10 +8754,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!4 &1590273172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9015801589508551158, guid: 490dee104a5e29f45ba8e5ef2a396534, type: 3}
@@ -9166,10 +9174,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &1655708799
 GameObject:
   m_ObjectHideFlags: 0
@@ -9484,10 +9493,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a470e9113071e4bb68d91497f458e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivel: 0
   posX: 195
   posY: 0.5
   posZ: -80
-  angle: 270
+  angulo: 0
 --- !u!1 &1713315801
 GameObject:
   m_ObjectHideFlags: 0
