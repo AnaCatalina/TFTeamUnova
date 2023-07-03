@@ -100,7 +100,7 @@ public class Militantes : MonoBehaviour
                 break;
             case "attack":
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(jugador.transform.position - transform.position), velRotacion * Time.deltaTime);
-                agente.speed = 3.5f;
+                agente.speed = 20f;
                 agente.destination = objetivo.position;
                 anim.SetBool("Perseguir", true);
                 print(estado);

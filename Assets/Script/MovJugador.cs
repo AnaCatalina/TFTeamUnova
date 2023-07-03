@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class MovJugador: MonoBehaviour
 {
-    public float velMovimiento = 5f;
-    public float velRotacion = 200f;
+    [SerializeField]
+    private float velMovimiento;
+    public float VelMovimiento { get => velMovimiento; set => velMovimiento = value; }
+    [SerializeField]
+    private float velRotacion;
     private Animator anim;
     public float x, y;
     public bool enTierra;
@@ -16,6 +19,8 @@ public class MovJugador: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        velMovimiento = 5f;
+        velRotacion = 200f;
         puedoSaltar = false;
         anim=GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
