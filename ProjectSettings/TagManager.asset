@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< Updated upstream
-  tags:
-  - Pala
-  - Auto
-  - Jugador
-  - Voto
-  - MitadVoto1
-=======
   tags: []
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
