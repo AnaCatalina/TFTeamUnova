@@ -14,7 +14,7 @@ public class Zona : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         
-        if ( other.tag=="Player") {
+        if ( other.tag=="Voto") {
             Debug.Log("colision");
             SceneManager.LoadScene(numeroScena);
         }
