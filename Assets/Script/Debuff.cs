@@ -32,7 +32,7 @@ public class Debuff : MonoBehaviour
         if (collision.gameObject.CompareTag("Jugador"))
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - 10, transform.position.z);
-            jugador.VelMovimiento = 2f;
+            jugador.VelMovimiento = 5f;
             activo =true;
         }
     }
@@ -43,7 +43,7 @@ public class Debuff : MonoBehaviour
         cronometro -= 1 * Time.deltaTime;
         if (cronometro <= 0)
         {
-            jugador.VelMovimiento = 5f;
+            jugador.VelMovimiento = 10f;
             Destroy(gameObject);
         }
     }

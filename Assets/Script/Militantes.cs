@@ -52,20 +52,20 @@ public class Militantes : MonoBehaviour
             distanciaPala = Vector3.Distance(pala.transform.position, transform.position);
             if ((distanciaPala < radioPala) && (pala.Funcionando))
             {
-                radioDeteccion = 4;
-                radioAtaque = 2;
+                radioDeteccion = 6;
+                radioAtaque = 5;
             }
             if ((distanciaPala > radioPala) || (!pala.Funcionando))
             {
-                radioDeteccion = 10;
-                radioAtaque = 8;
+                radioDeteccion = 16;
+                radioAtaque = 14;
             }
         }
 
         if (palaActiva == null)
         {
-            radioDeteccion = 10;
-            radioAtaque = 8;
+            radioDeteccion = 16;
+            radioAtaque = 14;
         }
 
 
@@ -100,7 +100,8 @@ public class Militantes : MonoBehaviour
                 break;
             case "attack":
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(jugador.transform.position - transform.position), velRotacion * Time.deltaTime);
-                agente.speed = 20f;
+                agente.speed = 10f;
+                agente.acceleration = 10f;
                 agente.destination = objetivo.position;
                 anim.SetBool("Perseguir", true);
                 print(estado);
