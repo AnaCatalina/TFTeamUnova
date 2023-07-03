@@ -24,6 +24,7 @@ public class MovJugador: MonoBehaviour
         puedoSaltar = false;
         anim=GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
