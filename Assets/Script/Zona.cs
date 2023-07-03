@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Zona : MonoBehaviour
 {
+    [SerializeField] private GameObject mesaV;
+    private void Start()
+    {
+        Instantiate(mesaV);
+    }
     public int numeroScena;
     private void OnTriggerEnter(Collider other)
     {

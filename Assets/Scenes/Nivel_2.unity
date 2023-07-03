@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 92320482}
   - component: {fileID: 92320481}
   - component: {fileID: 92320480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 135946828}
   - component: {fileID: 135946827}
   - component: {fileID: 135946826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 209644633}
   - component: {fileID: 209644632}
   - component: {fileID: 209644631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 233031343}
   - component: {fileID: 233031342}
   - component: {fileID: 233031341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234193802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Contenedor de Asfalto (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +868,7 @@ GameObject:
   - component: {fileID: 288103400}
   - component: {fileID: 288103399}
   - component: {fileID: 288103398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 335570312}
   - component: {fileID: 335570311}
   - component: {fileID: 335570310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ Transform:
   - {fileID: 1878454333}
   - {fileID: 602791056}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &366894050
 GameObject:
@@ -1211,7 +1211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 412418082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Contenedor de Caminos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 448684882}
   - component: {fileID: 448684881}
   - component: {fileID: 448684880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1594,7 +1594,7 @@ GameObject:
   - component: {fileID: 459225986}
   - component: {fileID: 459225985}
   - component: {fileID: 459225984}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 487354238}
   - component: {fileID: 487354237}
   - component: {fileID: 487354236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1900,7 +1900,7 @@ GameObject:
   - component: {fileID: 511860136}
   - component: {fileID: 511860135}
   - component: {fileID: 511860134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1998,7 +1998,7 @@ GameObject:
   - component: {fileID: 533900103}
   - component: {fileID: 533900102}
   - component: {fileID: 533900101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 536871444}
   - component: {fileID: 536871443}
   - component: {fileID: 536871442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2191,7 +2191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 564120208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Contenedor de Pisos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2218,6 +2218,69 @@ Transform:
   m_Father: {fileID: 1008664005}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &578702435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 120908, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+  m_PrefabInstance: {fileID: 1005928401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578702436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578702435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010a2222c58915a47b5f114a834346c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velMovimiento: 5
+  velRotacion: 200
+  x: 0
+  y: 0
+  enTierra: 0
+  rb: {fileID: 578702438}
+  fuerzaSalto: 5
+  puedoSaltar: 0
+  Mask:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!136 &578702437
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578702435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.1032219
+  m_Height: 3.0073388
+  m_Direction: 1
+  m_Center: {x: 0.08201218, y: 1.294782, z: -0.11324692}
+--- !u!54 &578702438
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578702435}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!4 &578702440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+  m_PrefabInstance: {fileID: 1005928401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &602791055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,7 +2390,7 @@ GameObject:
   - component: {fileID: 605218134}
   - component: {fileID: 605218133}
   - component: {fileID: 605218132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2460,7 +2523,7 @@ GameObject:
   - component: {fileID: 665753120}
   - component: {fileID: 665753119}
   - component: {fileID: 665753118}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2558,7 +2621,7 @@ GameObject:
   - component: {fileID: 670556733}
   - component: {fileID: 670556732}
   - component: {fileID: 670556731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2656,7 +2719,7 @@ GameObject:
   - component: {fileID: 701650228}
   - component: {fileID: 701650227}
   - component: {fileID: 701650226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3027,7 +3090,7 @@ GameObject:
   - component: {fileID: 811714467}
   - component: {fileID: 811714466}
   - component: {fileID: 811714465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,7 +3285,7 @@ GameObject:
   - component: {fileID: 832343881}
   - component: {fileID: 832343880}
   - component: {fileID: 832343879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,103 +3371,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832343877}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &848535752
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 848535756}
-  - component: {fileID: 848535755}
-  - component: {fileID: 848535754}
-  - component: {fileID: 848535753}
-  m_Layer: 0
-  m_Name: Urna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &848535753
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848535752}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &848535754
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848535752}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &848535755
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848535752}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &848535756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848535752}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70, y: 4, z: 77.5}
-  m_LocalScale: {x: 5, y: 8, z: 5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &875087074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,7 +3383,7 @@ GameObject:
   - component: {fileID: 875087078}
   - component: {fileID: 875087077}
   - component: {fileID: 875087076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3515,7 +3481,7 @@ GameObject:
   - component: {fileID: 885855023}
   - component: {fileID: 885855022}
   - component: {fileID: 885855021}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3613,7 +3579,7 @@ GameObject:
   - component: {fileID: 922630415}
   - component: {fileID: 922630414}
   - component: {fileID: 922630413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3711,7 +3677,7 @@ GameObject:
   - component: {fileID: 940848125}
   - component: {fileID: 940848124}
   - component: {fileID: 940848123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3809,7 +3775,7 @@ GameObject:
   - component: {fileID: 967970187}
   - component: {fileID: 967970186}
   - component: {fileID: 967970185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3907,7 +3873,7 @@ GameObject:
   - component: {fileID: 989979970}
   - component: {fileID: 989979969}
   - component: {fileID: 989979968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3993,38 +3959,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989979966}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &998106705
-GameObject:
+--- !u!1001 &1005928401
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 998106706}
-  m_Layer: 0
-  m_Name: Jugador
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &998106706
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998106705}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1323172380}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 120908, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_Name
+      value: jugador
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.938354
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 445848, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9533296, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 97f8592e8067d2e4db442a1482b78aa6, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50fdd4aab3acebd45b82c0ec4f01d35c, type: 3}
 --- !u!1 &1008664004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,7 +4146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1162598965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Contenedor de Asfalto (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4181,6 +4176,83 @@ Transform:
   m_Father: {fileID: 564120208}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1163778406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1163778410}
+  - component: {fileID: 1163778409}
+  - component: {fileID: 1163778408}
+  - component: {fileID: 1163778407}
+  m_Layer: 0
+  m_Name: GeneradorUrna
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1163778407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163778406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aaac2fc1160f464a8f8e28a99bb154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesaV: {fileID: 2493662670609594615, guid: a546efcf780423847b1915ff59bcf5b8, type: 3}
+  numeroScena: 3
+--- !u!65 &1163778408
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163778406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1163778409
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163778406}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!4 &1163778410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163778406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -69.89, y: 1.15, z: 74.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167178098
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,7 +4262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1167178099}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Contenedor de Asfalto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4329,7 +4401,7 @@ GameObject:
   - component: {fileID: 1206149602}
   - component: {fileID: 1206149601}
   - component: {fileID: 1206149600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4511,7 +4583,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1227411912
 GameObject:
@@ -4525,7 +4597,7 @@ GameObject:
   - component: {fileID: 1227411916}
   - component: {fileID: 1227411915}
   - component: {fileID: 1227411914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4623,7 +4695,7 @@ GameObject:
   - component: {fileID: 1258504894}
   - component: {fileID: 1258504893}
   - component: {fileID: 1258504892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4721,7 +4793,7 @@ GameObject:
   - component: {fileID: 1258723058}
   - component: {fileID: 1258723057}
   - component: {fileID: 1258723056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4903,121 +4975,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1323172375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1323172380}
-  - component: {fileID: 1323172379}
-  - component: {fileID: 1323172378}
-  - component: {fileID: 1323172377}
-  - component: {fileID: 1323172376}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!54 &1323172376
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323172375}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &1323172377
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323172375}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1323172378
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323172375}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1323172379
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323172375}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1323172380
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323172375}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 111.9, y: 55.5, z: 72.3}
-  m_LocalScale: {x: 5, y: 5, z: 5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 998106706}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383115612
 GameObject:
@@ -5031,7 +4989,7 @@ GameObject:
   - component: {fileID: 1383115616}
   - component: {fileID: 1383115615}
   - component: {fileID: 1383115614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5117,6 +5075,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383115612}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1402547350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402547351}
+  m_Layer: 0
+  m_Name: ManoPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1402547351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402547350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1646125053}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430586595
 GameObject:
   m_ObjectHideFlags: 0
@@ -5129,7 +5118,7 @@ GameObject:
   - component: {fileID: 1430586599}
   - component: {fileID: 1430586598}
   - component: {fileID: 1430586597}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5324,7 +5313,7 @@ GameObject:
   - component: {fileID: 1490065145}
   - component: {fileID: 1490065144}
   - component: {fileID: 1490065143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5691,7 +5680,7 @@ GameObject:
   - component: {fileID: 1597216180}
   - component: {fileID: 1597216179}
   - component: {fileID: 1597216178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5777,6 +5766,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597216176}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1646125052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646125053}
+  - component: {fileID: 1646125055}
+  - component: {fileID: 1646125054}
+  m_Layer: 0
+  m_Name: Mano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1646125053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646125052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.006, y: 1.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1402547351}
+  m_Father: {fileID: 578702440}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1646125054
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646125052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1646125055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646125052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dace764b11b63d4b99ba3e03bda328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manoPoint: {fileID: 1402547350}
+  pickedObject: {fileID: 0}
 --- !u!1 &1679568922
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,7 +5839,7 @@ GameObject:
   - component: {fileID: 1679568926}
   - component: {fileID: 1679568925}
   - component: {fileID: 1679568924}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5977,7 +6027,7 @@ GameObject:
   - component: {fileID: 1719732618}
   - component: {fileID: 1719732617}
   - component: {fileID: 1719732616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6075,7 +6125,7 @@ GameObject:
   - component: {fileID: 1767088343}
   - component: {fileID: 1767088342}
   - component: {fileID: 1767088341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6173,7 +6223,7 @@ GameObject:
   - component: {fileID: 1770685695}
   - component: {fileID: 1770685694}
   - component: {fileID: 1770685693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6353,7 +6403,7 @@ GameObject:
   - component: {fileID: 1863561562}
   - component: {fileID: 1863561561}
   - component: {fileID: 1863561560}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6515,14 +6565,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869312231}
-  m_LocalRotation: {x: -0.027318416, y: 0.83054733, z: -0.5547722, w: -0.040899545}
-  m_LocalPosition: {x: 116.73397, y: 102.32481, z: 93.681}
+  m_LocalRotation: {x: 0.20327154, y: 0.04815481, z: -0.010009154, w: 0.9778864}
+  m_LocalPosition: {x: -0.94999695, y: 5.28, z: -4.209999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 578702440}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 23.485, y: 5.638, z: 0}
 --- !u!1 &1878454332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6632,7 +6682,7 @@ GameObject:
   - component: {fileID: 1902218378}
   - component: {fileID: 1902218377}
   - component: {fileID: 1902218376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6730,7 +6780,7 @@ GameObject:
   - component: {fileID: 1922631270}
   - component: {fileID: 1922631269}
   - component: {fileID: 1922631268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6828,7 +6878,7 @@ GameObject:
   - component: {fileID: 1941719610}
   - component: {fileID: 1941719609}
   - component: {fileID: 1941719608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6926,7 +6976,7 @@ GameObject:
   - component: {fileID: 1969236350}
   - component: {fileID: 1969236349}
   - component: {fileID: 1969236348}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7024,7 +7074,7 @@ GameObject:
   - component: {fileID: 2004711179}
   - component: {fileID: 2004711178}
   - component: {fileID: 2004711177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7122,7 +7172,7 @@ GameObject:
   - component: {fileID: 2051775402}
   - component: {fileID: 2051775401}
   - component: {fileID: 2051775400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7219,7 +7269,7 @@ GameObject:
   - component: {fileID: 2057540543}
   - component: {fileID: 2057540542}
   - component: {fileID: 2057540541}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7414,7 +7464,7 @@ GameObject:
   - component: {fileID: 2083713243}
   - component: {fileID: 2083713242}
   - component: {fileID: 2083713241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caminos (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7512,7 +7562,7 @@ GameObject:
   - component: {fileID: 2091177931}
   - component: {fileID: 2091177930}
   - component: {fileID: 2091177929}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asfalto (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
