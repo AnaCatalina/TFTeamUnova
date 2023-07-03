@@ -49,9 +49,9 @@ public class Menu : MonoBehaviour
     }
 
 
-   /* public void EscenaJuego() {
-        SceneManager.LoadScene("juego");
-    }*/
+    public void EscenaJuego() {
+        SceneManager.LoadScene("Nivel_1");
+    }
     public void SonidoBoton()
     {
 
