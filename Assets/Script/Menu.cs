@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 
+
 public class Menu : MonoBehaviour
 {
     [Header("Opciones")]
@@ -18,11 +19,11 @@ public class Menu : MonoBehaviour
     public GameObject panelBotones;
     public GameObject opciones;
    public GameObject controles;
-  
-    
+
+    [SerializeField] private int numeroScena;
 
 
-   
+
 
     private void Awake()
     {
@@ -48,7 +49,10 @@ public class Menu : MonoBehaviour
     public void CambiarVolFX(float v) {
         mixer.SetFloat("VolFX",v);
     }
-
+    public void VolverMenu() 
+    {
+        SceneManager.LoadScene("menu");
+    }
 
     public void EscenaJuego() {
         SceneManager.LoadScene("Nivel_1");
