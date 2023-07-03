@@ -4,10 +4,10 @@ using UnityEngine.Scripting;
 using UnityEngine;
 
 
-public class PrubDestruccion : MonoBehaviour
+public class DestruccionVoto : MonoBehaviour
 {
-     public GameObject Voto3;
-    public GameObject Voto2;
+   [SerializeField]  public GameObject Voto3;
+    [SerializeField]public GameObject Voto2;
      private bool ApareceVoto3 = true;
     
     

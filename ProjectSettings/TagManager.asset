@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pala
   - Jugador
+  - Voto
+  - MitadVoto1
   layers:
   - Default
   - TransparentFX

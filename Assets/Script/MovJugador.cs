@@ -19,7 +19,7 @@ public class MovJugador: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        velMovimiento = 5f;
+        velMovimiento = 10f;
         velRotacion = 200f;
         puedoSaltar = false;
         anim=GetComponent<Animator>();

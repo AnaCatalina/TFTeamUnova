@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Zona : MonoBehaviour
 {
+    [SerializeField] private Transform posicion;
     [SerializeField] private GameObject mesaV;
+     [SerializeField] private int numeroScena;
     private void Start()
     {
-        Instantiate(mesaV);
+        Instantiate(mesaV, transform.position, transform.rotation);
     }
-    public int numeroScena;
+    
     private void OnTriggerEnter(Collider other)
     {
         
