@@ -35,7 +35,7 @@ public class Cronometro : MonoBehaviour
     void Update()
     {        
         cronometro -= 1 * Time.deltaTime;
-        textCrono = (int)cronometro;
+        textCrono = (int)cronometro +1;
         textComponent.text = "Tiempo: " + textCrono.ToString();
         if (cronometro <= 0)
         {
